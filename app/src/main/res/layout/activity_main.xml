@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribeTuNombre"
+        />
+
+    <EditText
+        android:id="@+id/miNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_nombre"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"
+        android:id="@+id/error"
+        />
+
+    <Button
+        android:id="@+id/amonos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonAmonos"
+        android:text="@string/amonos" />
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fight">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="23dp">
+
+        <TextView
+            android:id="@+id/kills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kills: ">
+
+        </TextView>
+        <TextView
+            android:id="@+id/nombreYo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:paddingHorizontal="@android:dimen/app_icon_size"
+            android:paddingVertical="5dp"
+            android:text="@string/vidaDe" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <ProgressBar
+        android:id="@+id/vidaYo"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:paddingVertical="5dp"
+        android:progress="50" />
+    <TextView
+        android:id="@+id/vidaTextoYo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="0"/>
+</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="23dp">
+
+        <TextView
+            android:id="@+id/nombreMounstro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:paddingHorizontal="@android:dimen/app_icon_size"
+            android:paddingVertical="5dp"
+            android:text="@string/vidaDe" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ProgressBar
+        android:id="@+id/vidaMounstro"
+        android:layout_width="320dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:progress="50"
+        android:paddingVertical="5dp"
+        />
+    <TextView
+        android:id="@+id/vidaTextoGato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+
+</LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="23dp">
+
+        <Button
+            android:id="@+id/atacar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonAtacar"
+            android:text="Atacar" />
+
+        <Button
+            android:id="@+id/curarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonCurar"
+            android:text="Curarse"
+            />
+
+        <Button
+            android:id="@+id/rendirse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonRendirse"
+            android:text="Rendirse"
+            />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/logDeEventos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+</LinearLayout>

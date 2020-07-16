@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cat Fight!</string>
+    <string name="nombre">Tu nombre</string>
+    <string name="amonos">Amonos</string>
+    <string name="vidaDe">Vida de </string>
+    <string name="hiciste">Le hiciste </string>
+    <string name="puntosDeDañoA">puntos de daño a</string>
+    <string name="puntosDeDañoDe"> puntos de daño de</string>
+    <string name="recibiste">Recibiste</string>
+    <string name="curaste">Te curaste</string>
+    <string name="puntosDeSalud">puntos de salud!</string>
+    <string name="no_nombre">No se ingreso un nombre</string>
+    <string name="kills">Kills: </string>
+    <string name="matasteA">Mataste a </string>
+    <string name="muerto">Has muerto :(</string>
+    <string name="gatosInocentes">gatos inocentes</string>
+    <string name="rendir">Te rendiste</string>
+    <string name="escribeTuNombre">Escribe tu nombre: </string>
+</resources>
